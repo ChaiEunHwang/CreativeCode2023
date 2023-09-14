@@ -94,6 +94,7 @@ p {
 ul {
   margin: 25;
   padding: 0;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 li {
