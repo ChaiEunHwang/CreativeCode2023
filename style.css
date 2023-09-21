@@ -5,7 +5,7 @@ body {
   margin: 2em;
   width: 100%;
   height: 100%;
-  background-color: #FFFAF0;
+  background-color: whitesmoke;
 }
 
 h1 {
@@ -15,21 +15,62 @@ h1 {
 }
 #NID1{
   color: #154917;
-  font-size: 12pt;
+  font-size: 13pt;
   font-family: 'IBM Plex Mono', monospace;
+  width: 1200px;
+  text-align: justify;
+  padding-bottom: 20px;
 }
 #NID2{
   color: #154917;
-  font-size: 12pt;
-  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13pt;
+  font-family: 'Barlow', sans-serif;
+  width: 1200px;
+  text-align: justify;
+  padding-bottom: 20px;
 }
 .special-h2{
   margin-top:0;
 }
+.li1{
+  color:red;
+}
+#rect1{
+  width: 52px;
+  height: 12px;
+  background-color: red;
+  margin-top: 20px;
+}
+#rect2{
+  width: 12px;
+  height: 108px;
+  background-color: red;
+  margin-left: 40px;
+  padding-top: 10px;
+}
+#rect3{
+  width: 12px;
+  height: 62px;
+  background-color: red;
+  margin-left: 40px;
+  padding-top: 10px;
+}
+#HBM{
+  float: right;
+  margin:0 0 0 15px;
+  width: 600px;
+  height: 600px;
+  object-position: 10px 30px;
+}
 h2 {
   color: #1F1F66;
-  font-size: 18pt;
-/*   margin-top:0; */
+  font-size: 14pt;
+  font-family: 'IBM Plex Mono', monospace;
+  width: 10px;
+  margin-left: 20px;
+  padding-top: 0px;
+
+
 }
 
 button {
@@ -84,8 +125,8 @@ p {
 }
 
 .content {
-  padding: 2%;
-  width: 50%;
+  padding: 0%;
+  width: 20%;
   display: inline-block;
   float: left;
   /*   background-color:yellow; */
@@ -98,8 +139,10 @@ ul {
 }
 
 li {
-  font-size: 12pt;
+  font-size: 11pt;
   list-style-type: none;
+  padding: 0%;
+  margin-left: 38px;
   padding-bottom: 1em;
 }
 
